@@ -1,0 +1,275 @@
+.root {
+  --merriweather: "Merriweather", serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: var(--merriweather);
+}
+
+button[type="submit"] {
+  background-color: #0078ae;
+}
+button[type="submit"]:hover {
+  background-color: #0078ae;
+}
+
+/* Header */
+.header {
+  border-bottom: 3px solid #0078ae;
+}
+.logo {
+  width: 8%;
+  margin-left: 25px !important;
+}
+.head-item {
+  margin-right: 50px !important;
+  font-size: 18px;
+  color: #0078ae;
+  font-weight: 1000;
+}
+.head-item a:hover {
+  background-color: #0078ae;
+  color: #ffff !important;
+}
+.head-item ul {
+  border: 1px solid #0078ae !important;
+}
+.head-item ul li {
+  padding: 5px;
+}
+.head-item .nav-link {
+  color: #000000;
+}
+.head-item ul li a {
+  color: #000000 !important;
+  font-weight: bold;
+}
+.head-item ul li a:hover {
+  background-color: #01638f;
+  color: #ffff !important;
+}
+
+/* Header */
+
+/* Hero */
+.hero-main {
+  padding: 25px;
+}
+.hero-text {
+  width: 100%;
+}
+.hero-img {
+  width: 100%;
+  height: 300px;
+  border-radius: 15px;
+}
+.text-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-caption p {
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+/* Hero */
+
+/* Our Mission */
+.our-mission {
+  margin-top: 60px;
+}
+.mission-head {
+  font-weight: bold;
+  color: #0078ae;
+  text-align: center;
+}
+.mission-para {
+  width: 70% !important;
+}
+.mission-para p {
+  font-size: 20px;
+}
+/* Our Mission */
+/* Four Dimension */
+.four-dimension {
+  margin-top: 100px;
+}
+.dimension-head {
+  color: #0078ae;
+  font-weight: bold;
+}
+.dimension-main {
+  margin-top: 45px;
+}
+.dimension-card {
+  box-shadow: 0px 0px 12px 2px #bac2c5 !important;
+  padding-top: 15px;
+}
+.dimension-card img {
+  width: 70%;
+}
+.dimension-title {
+  font-weight: bold;
+  color: #0078ae;
+  text-align: center;
+}
+/* Four Dimension */
+/* Footer */
+.footer-ihaps {
+  margin-top: 50px;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+.social-links {
+  width: 50%;
+  margin: 0 auto;
+}
+.social-links li {
+  font-size: 20px;
+  color: #0078ae !important;
+  border: none !important;
+  background-color: #f1f1f1 !important;
+}
+.contact-head {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.footer-logo {
+  width: 150px;
+}
+/* Footer */
+
+/* About IHAPS */
+.head-about {
+  font-weight: bold;
+  color: #ffff;
+  background-color: #0078ae;
+}
+.objective-main {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+.about-main {
+  margin-top: 25px;
+}
+.tab-ihaps {
+  margin-top: 20px;
+}
+.tab-ihaps li {
+  font-size: 18px;
+  font-weight: bold;
+}
+.item-ihaps {
+  margin-top: 30px;
+  box-shadow: 0px 0px 12px 2px #bac2c5 !important;
+  border-radius: 10px;
+}
+.item-ihaps li {
+  padding: 15px;
+  list-style: square;
+}
+.director-head {
+  text-align: center;
+  background-color: #0078ae;
+  color: #ffff;
+  padding: 10px;
+  font-weight: bold;
+}
+.director-main {
+  margin-top: 20px;
+}
+.director-name {
+  font-weight: bold;
+}
+.executive-main {
+  margin-top: 30px !important;
+}
+.director-img h6 {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+.director-img span {
+  font-weight: bold;
+}
+.director-img span a {
+  text-align: center !important;
+}
+/* About IHAPS */
+
+/* Workgroup */
+.tab-workgroup {
+  padding: 20px;
+}
+.tab-workgroup-list .nav-item a {
+  color: black;
+  font-weight: bold;
+}
+.tab-workgroup-list .nav-item .nav-link.active {
+  background-color: #0078ae;
+  color: #ffff;
+}
+
+/* Curriculum */
+.curriculum-head {
+  text-align: center;
+  margin-top: 15px;
+  background-color: #0078ae;
+  color: #ffff;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 10px;
+}
+.form-curriculum {
+  box-shadow: 1px 1px 12px 2px #bac2c5 !important;
+  border-radius: 15px;
+  padding: 20px;
+}
+.head-academic {
+  text-align: center;
+  margin-bottom: 15px;
+  background-color: #0078ae;
+  color: #ffff;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+/* Curriculum */
+/* Workgroup */
+/* Login */
+.form-login {
+  width: 30% !important;
+  margin-top: 50px;
+  box-shadow: 1px 1px 12px 2px #bac2c5 !important;
+  padding: 30px;
+  border-radius: 10px;
+}
+.form-sign {
+  box-shadow: 1px 1px 12px 2px #bac2c5 !important;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 10px;
+}
+/* Login */
+.report-curriculum {
+  margin-top: 50px;
+}
+.table-curriculum {
+  border: 2px solid #0078ae !important;
+}
+@media screen and (max-width: 992px) {
+  .logo {
+    width: 20% !important;
+    margin-left: 0 !important;
+  }
+  .form-login {
+    width: 100% !important;
+  }
+  .right-foot {
+    margin-top: 20px !important;
+  }
+}
